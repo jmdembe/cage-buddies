@@ -9,26 +9,66 @@
     left: 25px;
 }
 
+.header-title {
+    display: inline-block;
+    text-align: right;
+    width: 35%;
+}
+
+.top-page-nav ul{
+    text-align: right;
+}
+
+.top-page-nav li {
+    display: inline;
+}
+
 /*Main styling*/
 
 .blog {
+    border-color: 2px solid #000000;
     float: left;
     width: 60%;
 }
 
+.author-name, .publish-date {
+    display: inline;
+}
 .sidebar {
     float: left;
     width: 40%;
 }
 
+.emphasis {
+    border-left: 5px solid #000000;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.blog > a{
+    background-color: red;
+    float: right;
+}
 /*Footer styling*/
 
-.blog {
-    float: left;
-    width: 60%;
+footer {
+    width: 850px;
+    clear:both;
+    text-align: center;
 }
 
-.sidebar {
-    float: left;
-    width: 40%;
+.footer-legal {
+    background-color: #CCCCFF;
+}
+
+.footer-nav {
+    text-align: right;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-disclaimer {
+    text-align: left;
 }

@@ -1,0 +1,34 @@
+/*Header styling*/
+.banner {
+    background-image: url("http://www.placecage.com/1199/250");
+}
+
+.corner-img {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+/*Main styling*/
+
+.blog {
+    float: left;
+    width: 60%;
+}
+
+.sidebar {
+    float: left;
+    width: 40%;
+}
+
+/*Footer styling*/
+
+.blog {
+    float: left;
+    width: 60%;
+}
+
+.sidebar {
+    float: left;
+    width: 40%;
+}

@@ -50,21 +50,25 @@
     float: right;
 }
 
-.sidebar-profile.picture {
-
+.ad-info {
+    float: right;
 }
 
-.sidebar a {
+.sidebar > .ad-info > a {
+    background-color: blue;
     display: block;
-    text-align: right;
+}
+
+.blog-info {
+    clear: both;
 }
 /*Footer styling*/
 
-footer {
+body > footer {
     width: 750px;
+    margin: 0 auto;
     clear:both;
     text-align: center;
-    background
 }
 
 .footer-legal {
@@ -72,7 +76,8 @@ footer {
 }
 
 .footer-nav {
-    text-align: right;
+    display: inline;
+    background-color: red;
 }
 
 .footer-nav li {
@@ -89,6 +94,6 @@ footer img {
 }
 
 .footer-disclaimer {
-    display: block;
+    display: inline;;
     text-align: left;
 }

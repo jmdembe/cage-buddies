@@ -21,6 +21,7 @@
 
 .top-page-nav li {
     display: inline;
+    margin: 10px;
 }
 
 /*Main styling*/
@@ -39,6 +40,18 @@
     width: 40%;
 }
 
+.sidebar-profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: inline;
+    text-align: center;
+}
+
+.sidebar-author-name, .sidebar-author-tag {
+    text-align: center;
+}
+
 .emphasis {
     border-left: 5px solid #000000;
     padding: 10px;
@@ -46,8 +59,8 @@
 }
 
 .blog > a{
-    background-color: red;
     float: right;
+    margin: 10px;
 }
 
 .ad-info {
@@ -77,7 +90,6 @@ body > footer {
 
 .footer-nav {
     display: inline;
-    background-color: red;
 }
 
 .footer-nav li {

@@ -49,12 +49,22 @@
     background-color: red;
     float: right;
 }
+
+.sidebar-profile.picture {
+
+}
+
+.sidebar a {
+    display: block;
+    text-align: right;
+}
 /*Footer styling*/
 
 footer {
-    width: 850px;
+    width: 750px;
     clear:both;
     text-align: center;
+    background
 }
 
 .footer-legal {
@@ -69,6 +79,16 @@ footer {
     display: inline;
 }
 
+footer img {
+    display: block;
+    float: right;
+}
+
+.footer-legal {
+    clear: both;
+}
+
 .footer-disclaimer {
+    display: block;
     text-align: left;
 }

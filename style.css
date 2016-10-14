@@ -1,10 +1,13 @@
 /*Header styling*/
 .banner {
-    background-image: url("http://www.placecage.com/1199/250");
+    background-image: url('http://www.placecage.com/1199/250');
 }
 
 .corner-img {
     position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
     top: 25px;
     left: 25px;
 }
@@ -44,8 +47,8 @@
     width: 100px;
     height: 100px;
     border-radius: 50px;
-    display: inline;
-    text-align: center;
+    left: 50%;
+
 }
 
 .sidebar-author-name, .sidebar-author-tag {
@@ -68,8 +71,8 @@
 }
 
 .sidebar > .ad-info > a {
-    background-color: blue;
     display: block;
+    align-text: right;
 }
 
 .blog-info {

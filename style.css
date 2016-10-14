@@ -35,6 +35,11 @@
     width: 60%;
 }
 
+.blog img {
+    height: 25px;
+    width: 25px;
+    border-radius: 12.5px;
+}
 .author-name, .publish-date {
     display: inline;
 }
@@ -64,6 +69,8 @@
 .blog > a{
     float: right;
     margin: 10px;
+    background-color: #3b5998;
+    color: #ffffff;
 }
 
 .ad-info {
